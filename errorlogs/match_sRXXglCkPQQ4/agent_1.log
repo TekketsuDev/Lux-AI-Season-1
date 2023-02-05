@@ -1,0 +1,13 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\main.js:74
+          if(unit.pos.is_adjacent(closestCityTile) && unit.can_build() && unit.can_act()){
+                      ^
+
+TypeError: unit.pos.is_adjacent is not a function
+    at C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\main.js:74:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v19.1.0
+Agent timed out
