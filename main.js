@@ -78,11 +78,13 @@ agent.initialize().then(async () => {
               actions.push(unit.move(dir));
             }
           } */
-          if(unit.can_build() && unit.can_act()){
-            actions.push(unit.build_city());
+          if(unit.canBuild(gameMap) && unit.canAct()){
+            actions.push(unit.buildCity());
+            console.log(annotate.text(6, 5, "ME ESTOY MOVIENDO PUTA", int = 16));
           }
           else{
-            actions.push(unit.move(s));
+            actions.push(unit.move("s"));
+            
           }
         }
       }

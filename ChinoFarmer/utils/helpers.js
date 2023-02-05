@@ -1,4 +1,4 @@
-const { GameMap } = require("../lux/map");
+const { GameMap } = require("../../lux/map");
 
 function find_resources(game_state) {
     const optimalTile = [];
