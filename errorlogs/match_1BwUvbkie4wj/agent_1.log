@@ -1,0 +1,18 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\lux\kit.js:186
+    return __awaiter(this, void 0, void 0, function* () {
+    ^
+
+ReferenceError: __awaiter is not defined
+    at Agent.run (C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\lux\kit.js:186:5)
+    at Object.<anonymous> (C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\main.js:6:7)
+    at Module._compile (node:internal/modules/cjs/loader:1205:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1259:10)
+    at Module.load (node:internal/modules/cjs/loader:1068:32)
+    at Module._load (node:internal/modules/cjs/loader:909:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.1.0

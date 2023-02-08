@@ -176,13 +176,26 @@ class Agent {
       }
     }
   }
-
   /**
    * End a turn
    */
   endTurn() {
     console.log('D_FINISH');
   }
+  run(loop) {
+    await this.initialize();
+    while (true) {
+      await this.update();
+      try {
+        const actions = loop(this.gameState);
+        console.log(actions.join(","));
+      } catch (err) {
+        console.log(err);
+      }
+      this.endTurn();
+    }
+}
+
 }
 
 const annotate = {

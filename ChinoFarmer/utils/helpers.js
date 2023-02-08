@@ -4,7 +4,8 @@ function find_resources(game_state) {
     const optimalTile = [];
     let map = new Map();
 
-    const breadthFirstSearch = (,optimalTile )
+
+    const breadthFirstSearch = (optimalTile)
         /* 
         OWN MAPPING SYSTEM
         0 = UNNABLE TILE (other workers destiny, )
@@ -16,7 +17,6 @@ function find_resources(game_state) {
         for (let x = 0; x < GameMap.width; x++) {
             
             if(cell.resource)
-            if()
             
             const treeCell = gameMap.getCell(x,y);
 

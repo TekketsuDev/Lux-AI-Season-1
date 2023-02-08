@@ -1,0 +1,19 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+C:\Users\vjame\Desktop\Projects\Local\Lux AI Season 1\ChinoFarmer\main.js:3
+const AgentBot = require(".lux/Agent");
+      ^
+
+SyntaxError: Identifier 'AgentBot' has already been declared
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1128:20)
+    at Module._compile (node:internal/modules/cjs/loader:1169:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1259:10)
+    at Module.load (node:internal/modules/cjs/loader:1068:32)
+    at Module._load (node:internal/modules/cjs/loader:909:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.1.0
+Agent timed out
